@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 }
 
 .background1 {
@@ -27,6 +31,7 @@ h1 {
   left: 60px;
   top: 10px;
   font-size: 3.5rem;
+  color: hsl(292, 42%, 14%);
 }
 #icon-star {
   position: relative;
@@ -82,23 +87,28 @@ h1 {
 .campo-de-texto1 {
   display: none;
   margin-bottom: 30px;
+  color: hsl(292, 16%, 49%);
 }
 .campo-de-texto2 {
   display: none;
   margin-bottom: 30px;
+  color: hsl(292, 16%, 49%);
 }
 .campo-de-texto3 {
   display: none;
   margin-bottom: 30px;
+  color: hsl(292, 16%, 49%);
 }
 .campo-de-texto4 {
   display: none;
   margin-bottom: 30px;
+  color: hsl(292, 16%, 49%);
 }
 .p-1 {
   position: relative;
   top: 20px;
   margin-top: 35px;
+  color: hsl(292, 42%, 14%);
 }
 .p-1:hover {
   cursor: pointer;
@@ -109,6 +119,7 @@ h1 {
   position: relative;
   top: 20px;
   margin-top: 10px;
+  color: hsl(292, 42%, 14%);
 }
 .p-2:hover {
   cursor: pointer;
@@ -119,6 +130,7 @@ h1 {
   position: relative;
   top: 20px;
   margin-top: 10px;
+  color: hsl(292, 42%, 14%);
 }
 .p-3:hover {
   cursor: pointer;
@@ -129,6 +141,7 @@ h1 {
   position: relative;
   top: 20px;
   margin-top: 10px;
+  color: hsl(292, 42%, 14%);
 }
 .p-4:hover {
   cursor: pointer;
@@ -150,4 +163,54 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1440px) {
+  #icon-mais {
+    left: 525px;
+  }
+  #icon-mais2 {
+    left: 525px;
+  }
+  #icon-mais3 {
+    left: 525px;
+  }
+  #icon-mais4 {
+    left: 525px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #icon-mais {
+    left: 480px;
+  }
+  #icon-mais2 {
+    left: 480px;
+  }
+  #icon-mais3 {
+    left: 480px;
+  }
+  #icon-mais4 {
+    left: 480px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    top: 18%;
+    width: 45%;
+  }
+
+  #icon-mais {
+    left: 425px;
+  }
+  #icon-mais2 {
+    left: 425px;
+  }
+  #icon-mais3 {
+    left: 425px;
+  }
+  #icon-mais4 {
+    left: 425px;
+  }
 }
