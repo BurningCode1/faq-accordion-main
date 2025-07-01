@@ -160,9 +160,15 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: relative;
+  top: 65vh;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.background-mobile {
+  display: none;
 }
 
 @media (max-width: 1440px) {
@@ -212,5 +218,110 @@ body {
   }
   #icon-mais4 {
     left: 425px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-desktop {
+    display: none;
+  }
+
+  .background-mobile {
+    display: block;
+    width: 100vw;
+  }
+  .content {
+    top: 15%;
+    margin-left: 7.2%;
+
+    width: 75%;
+  }
+
+  #icon-mais {
+    left: 330px;
+  }
+  #icon-mais2 {
+    left: 330px;
+  }
+  #icon-mais3 {
+    left: 330px;
+  }
+  #icon-mais4 {
+    left: 330px;
+  }
+}
+@media (max-width: 393px) {
+  .background-mobile {
+    width: 103vw;
+  }
+  .content {
+    margin-left: 6%;
+  }
+
+  .p-1 {
+    font-size: 12px;
+  }
+
+  .p-2 {
+    font-size: 12px;
+  }
+
+  .p-3 {
+    font-size: 12px;
+  }
+
+  .p-4 {
+    font-size: 12px;
+  }
+
+  #icon-mais {
+    left: 265px;
+  }
+  #icon-mais2 {
+    left: 265px;
+  }
+  #icon-mais3 {
+    left: 265px;
+  }
+  #icon-mais4 {
+    left: 265px;
+  }
+}
+
+@media (max-width: 375px) {
+  .background-mobile {
+    width: 105.5vw;
+  }
+  .content {
+    margin-left: 7.5%;
+  }
+
+  .p-1 {
+    font-size: 9px;
+  }
+
+  .p-2 {
+    font-size: 9px;
+  }
+
+  .p-3 {
+    font-size: 9px;
+  }
+
+  .p-4 {
+    font-size: 9px;
+  }
+
+  #icon-mais {
+    left: 245px;
+  }
+  #icon-mais2 {
+    left: 245px;
+  }
+  #icon-mais3 {
+    left: 245px;
+  }
+  #icon-mais4 {
+    left: 245px;
   }
 }

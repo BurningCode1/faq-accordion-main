@@ -2,10 +2,26 @@ const mostrarIcone = document.querySelector("#icon-mais");
 const mediaQuery = window.matchMedia("(max-width: 1024px)");
 const mediaQuery2 = window.matchMedia("(max-width: 1440px)");
 const mediaQuery3 = window.matchMedia("(max-width: 1280px)");
+const mediaQuery4 = window.matchMedia("(max-width: 480px)");
+const mediaQuery5 = window.matchMedia("(max-width: 393px)");
+const mediaQuery6 = window.matchMedia("(max-width: 375px)");
 const esconderIcone = document.querySelector("#icon-menos");
 const campoTexto = document.querySelector(".campo-de-texto1");
 let verify = false;
 // Adiciona eventos de clique
+
+if (mediaQuery6.matches) {
+  alert("A largura da tela é menor ou igual a 375px.");
+  esconderIcone.style.position = "relative";
+  esconderIcone.style.left = "245px";
+  esconderIcone.style.bottom = "12px";
+}
+if (mediaQuery6.matches) {
+  alert("A largura da tela é menor ou igual a 375px.");
+  mostrarIcone.style.position = "relative";
+  mostrarIcone.style.left = "245px";
+  mostrarIcone.style.bottom = "12px";
+}
 
 mostrarIcone.addEventListener("click", () => {
   campoTexto.style.display = "block"; // Mostra o campo
@@ -35,6 +51,26 @@ mostrarIcone.addEventListener("click", () => {
     alert("A largura da tela é menor ou igual a 1024px.");
     esconderIcone.style.position = "relative";
     esconderIcone.style.left = "425px";
+    esconderIcone.style.bottom = "12px";
+  }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    esconderIcone.style.position = "relative";
+    esconderIcone.style.left = "330px";
+    esconderIcone.style.bottom = "12px";
+  }
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    esconderIcone.style.position = "relative";
+    esconderIcone.style.left = "265px";
+    esconderIcone.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    esconderIcone.style.position = "relative";
+    esconderIcone.style.left = "245px";
     esconderIcone.style.bottom = "12px";
   }
 });
@@ -77,6 +113,27 @@ esconderIcone.addEventListener("click", () => {
     mostrarIcone.style.left = "425px";
     mostrarIcone.style.bottom = "12px";
   }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    mostrarIcone.style.position = "relative";
+    mostrarIcone.style.left = "330px";
+    mostrarIcone.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    mostrarIcone.style.position = "relative";
+    mostrarIcone.style.left = "265px";
+    mostrarIcone.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    mostrarIcone.style.position = "relative";
+    mostrarIcone.style.left = "245px";
+    mostrarIcone.style.bottom = "12px";
+  }
 });
 
 const mostrarIcone2 = document.querySelector("#icon-mais2");
@@ -116,6 +173,27 @@ mostrarIcone2.addEventListener("click", () => {
     esconderIcone2.style.left = "425px";
     esconderIcone2.style.bottom = "12px";
   }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    esconderIcone2.style.position = "relative";
+    esconderIcone2.style.left = "330px";
+    esconderIcone2.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    esconderIcone2.style.position = "relative";
+    esconderIcone2.style.left = "265px";
+    esconderIcone2.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    esconderIcone2.style.position = "relative";
+    esconderIcone2.style.left = "245px";
+    esconderIcone2.style.bottom = "12px";
+  }
 });
 
 esconderIcone2.addEventListener("click", () => {
@@ -147,6 +225,27 @@ esconderIcone2.addEventListener("click", () => {
     alert("A largura da tela é menor ou igual a 1024px.");
     mostrarIcone2.style.position = "relative";
     mostrarIcone2.style.left = "425px";
+    mostrarIcone2.style.bottom = "12px";
+  }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    mostrarIcone2.style.position = "relative";
+    mostrarIcone2.style.left = "330px";
+    mostrarIcone2.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    mostrarIcone2.style.position = "relative";
+    mostrarIcone2.style.left = "265px";
+    mostrarIcone2.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    mostrarIcone2.style.position = "relative";
+    mostrarIcone2.style.left = "245px";
     mostrarIcone2.style.bottom = "12px";
   }
 });
@@ -188,6 +287,27 @@ mostrarIcone3.addEventListener("click", () => {
     esconderIcone3.style.left = "425px";
     esconderIcone3.style.bottom = "12px";
   }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    esconderIcone3.style.position = "relative";
+    esconderIcone3.style.left = "330px";
+    esconderIcone3.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    esconderIcone3.style.position = "relative";
+    esconderIcone3.style.left = "265px";
+    esconderIcone3.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    esconderIcone3.style.position = "relative";
+    esconderIcone3.style.left = "245px";
+    esconderIcone3.style.bottom = "12px";
+  }
 });
 
 esconderIcone3.addEventListener("click", () => {
@@ -218,6 +338,27 @@ esconderIcone3.addEventListener("click", () => {
     alert("A largura da tela é menor ou igual a 1024px.");
     mostrarIcone3.style.position = "relative";
     mostrarIcone3.style.left = "425px";
+    mostrarIcone3.style.bottom = "12px";
+  }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    mostrarIcone3.style.position = "relative";
+    mostrarIcone3.style.left = "330px";
+    mostrarIcone3.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    mostrarIcone3.style.position = "relative";
+    mostrarIcone3.style.left = "265px";
+    mostrarIcone3.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    mostrarIcone3.style.position = "relative";
+    mostrarIcone3.style.left = "245px";
     mostrarIcone3.style.bottom = "12px";
   }
 });
@@ -259,6 +400,27 @@ mostrarIcone4.addEventListener("click", () => {
     esconderIcone4.style.left = "425px";
     esconderIcone4.style.bottom = "12px";
   }
+
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    esconderIcone4.style.position = "relative";
+    esconderIcone4.style.left = "330px";
+    esconderIcone4.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    esconderIcone4.style.position = "relative";
+    esconderIcone4.style.left = "265px";
+    esconderIcone4.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    esconderIcone4.style.position = "relative";
+    esconderIcone4.style.left = "245px";
+    esconderIcone4.style.bottom = "12px";
+  }
 });
 
 esconderIcone4.addEventListener("click", () => {
@@ -289,6 +451,26 @@ esconderIcone4.addEventListener("click", () => {
     alert("A largura da tela é menor ou igual a 1024px.");
     mostrarIcone4.style.position = "relative";
     mostrarIcone4.style.left = "425px";
+    mostrarIcone4.style.bottom = "12px";
+  }
+  if (mediaQuery4.matches) {
+    alert("A largura da tela é menor ou igual a 480px.");
+    mostrarIcone4.style.position = "relative";
+    mostrarIcone4.style.left = "330px";
+    mostrarIcone4.style.bottom = "12px";
+  }
+
+  if (mediaQuery5.matches) {
+    alert("A largura da tela é menor ou igual a 393px.");
+    mostrarIcone4.style.position = "relative";
+    mostrarIcone4.style.left = "265px";
+    mostrarIcone4.style.bottom = "12px";
+  }
+
+  if (mediaQuery6.matches) {
+    alert("A largura da tela é menor ou igual a 375px.");
+    mostrarIcone4.style.position = "relative";
+    mostrarIcone4.style.left = "245px";
     mostrarIcone4.style.bottom = "12px";
   }
 });
